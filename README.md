@@ -5,7 +5,7 @@ With configjs, you can effortlessly load a "config.json" file from the working d
 
 ## Installation
 
-Install ConfigJS using pip:
+Install configjs using pip:
 
 ```bash
 pip install configjs
@@ -13,7 +13,7 @@ pip install configjs
 
 ## Usage
 
-1. Create a "config.json" file in your project's working directory with the desired configuration settings in JSON format:
+- Create a "config.json" file in your project's working directory with the desired configuration settings in JSON format:
 
 ```json
 {
@@ -27,7 +27,7 @@ pip install configjs
 }
 ```
 
-2. Import and use configjs in your Python code:
+- Import and use configjs in your Python code:
 
 ```python
 from configjs import Config
@@ -49,10 +49,10 @@ print(f"Database Password: {db_password}")
 print(f"API Key: {api_key}")
 ```
 
-Replace the attribute names (database, host, port, username, password, api_key) with your actual configuration structure.
+- Replace the attribute names (database, host, port, username, password, api_key) with your actual configuration structure.
 
 ## Notes
 
-configkjs assumes that the "config.json" file is in the working directory.
+configjs assumes that the "config.json" file is in the working directory.
 The package name itself (config) is used as the top-level attribute to access the configuration settings.
 Feel free to customize "config.json" based on your project's needs and easily manage your configuration settings using configjs.
