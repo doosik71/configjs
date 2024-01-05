@@ -7,7 +7,7 @@ import json
 from collections import namedtuple
 
 
-__version__ = "0.1.0"
+__version__ = "0.1.2"
 
 
 class Config:
